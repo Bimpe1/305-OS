@@ -1,4 +1,5 @@
 use crate::std::prelude::*;
+#[allow(unused)]
 
 pub fn box_vs_rc() {
     let mut x = Box::new("Box is for single ownership".to_string());

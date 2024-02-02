@@ -1,4 +1,5 @@
 use crate::std::prelude::*;
+#[allow(unused)]
 
 //Example 1, using raw Future trait
 // DEFINE A CUSTOM FUTURE THAT SIMULATES AN ASYNCHRONOUS OPERATION

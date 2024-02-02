@@ -1,3 +1,4 @@
+#[allow(unused)]
 use alloc::string::String;
 use x86_64::structures::idt::InterruptStackFrame;
 use x86_64::structures::idt::InterruptDescriptorTable;

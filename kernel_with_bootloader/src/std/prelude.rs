@@ -1,5 +1,6 @@
 #![allow(unused_imports)]
 pub use crate::println;
+pub use crate::input_str;
 //let import ahead of time, our data structures that involve heap
 //as if they are all standard to our offerings.
 pub use alloc::string::String;
