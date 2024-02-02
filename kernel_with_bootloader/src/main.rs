@@ -156,7 +156,7 @@ fn my_entry_point(boot_info: &'static mut bootloader_api::BootInfo) -> ! {
     interrupts::init();
 
     //Let's experience getting string from keyboard and saving into a variable for use
-    let returned_input = input_str!("Your prompt statement here");
+    let returned_input = input_str!("Your prompt statement here: ");
     if let Some(input)=returned_input{
         println!("\nString entered is '{}'",input);
     }else{
